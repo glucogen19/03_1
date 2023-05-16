@@ -11,6 +11,11 @@ class Car {
 			P = 0;
 			V = 0;
 		}
+		Car(double A, int B, double C) {
+			X = A;
+			P = B;
+			V = C;
+		}
 };
 
 int main() {}
