@@ -16,6 +16,10 @@ class Car {
 			P = B;
 			V = C;
 		}
+		void out() {
+			cout << X << P << V;
+		}
 };
 
-int main() {}
+int main() {
+}
