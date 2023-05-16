@@ -16,10 +16,12 @@ class Car {
 			P = B;
 			V = C;
 		}
-		void out() {
+		void out() {	
 			cout << X << P << V;
 		}
 };
 
 int main() {
+	Car Alpha;
+	Alpha.out();
 }
